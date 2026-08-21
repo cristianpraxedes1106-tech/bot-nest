@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#5865F2">
+  <title>BotNest — Seu Hub de Bots</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark">✦</div><div><strong>BotNest</strong><span>seu bot hub</span></div></div>
+      <nav class="nav">
+        <a class="nav-item active" href="#"><span class="nav-icon">⌂</span>Início</a>
+        <a class="nav-item" href="#bots"><span class="nav-icon">◈</span>Meus Bots<span class="nav-count">3</span></a>
+        <a class="nav-item" href="#activity"><span class="nav-icon">◷</span>Atividade</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="nest-card"><span class="nest-emoji">🥚</span><div><strong>Bem-vindo ao ninho!</strong><small>Seus bots moram aqui.</small></div></div>
+        <div class="profile-pill"><div class="avatar">R</div><div class="profile-text"><strong>Raz</strong><small>Owner</small></div><span class="online-dot"></span></div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar"><div><span class="eyebrow">PERSONAL BOT HUB</span><h1>Bem-vindo de volta, Raz! <span>👋</span></h1><p>Tudo está aconchegante dentro do ninho.</p></div><button class="top-button" type="button">⚙ Configurações</button></header>
+
+      <section class="hero-card">
+        <div class="hero-copy"><span class="hero-badge">🪺 O NINHO ESTÁ ABERTO</span><h2>Seus bots.<br><em>Seu pequeno universo.</em></h2><p>Um cantinho divertido para todos os bots do Discord que você cria, inventa e provavelmente passa horas demais fazendo.</p><div class="hero-actions"><a class="primary-button" href="#bots">Ver meus bots <span>→</span></a><a class="secondary-button" href="#activity">Ver atividade</a></div></div>
+        <div class="hero-art" aria-hidden="true"><div class="cloud cloud-one"></div><div class="cloud cloud-two"></div><div class="sparkle sparkle-one">✦</div><div class="sparkle sparkle-two">✧</div><div class="nest-illustration"><div class="egg egg-back">◌</div><div class="egg egg-main"><span>•ᴗ•</span></div><div class="nest-lines"></div></div></div>
+      </section>
+
+      <section class="section" id="bots"><div class="section-heading"><div><span class="eyebrow">SUA EQUIPE</span><h2>Meus Bots</h2></div><span class="muted-label">3 bots no ninho</span></div>
+        <div class="bot-grid">
+          <article class="bot-card featured"><div class="bot-card-top"><div class="bot-avatar purple">✦</div><span class="status online"><i></i> Online</span></div><h3>Bot One</h3><p>Meu companheiro principal do Discord.</p><div class="bot-meta"><span>24 servidores</span><span>•</span><span>99,9% uptime</span></div><div class="card-footer"><span>Visto agora</span><span class="arrow">→</span></div></article>
+          <article class="bot-card"><div class="bot-card-top"><div class="bot-avatar blue">✧</div><span class="status online"><i></i> Online</span></div><h3>Bot Two</h3><p>Um pequeno bot utilitário com grandes sonhos.</p><div class="bot-meta"><span>8 servidores</span><span>•</span><span>98,4% uptime</span></div><div class="card-footer"><span>Visto agora</span><span class="arrow">→</span></div></article>
+          <article class="bot-card sleeping"><div class="bot-card-top"><div class="bot-avatar pink">☾</div><span class="status offline"><i></i> Offline</span></div><h3>Bot Three</h3><p>Atualmente tirando uma sonequinha.</p><div class="bot-meta"><span>3 servidores</span><span>•</span><span>Pausado</span></div><div class="card-footer"><span>Visto há 2h</span><span class="arrow">→</span></div></article>
+        </div>
+      </section>
+
+      <section class="section" id="activity"><div class="section-heading"><div><span class="eyebrow">RECENTEMENTE</span><h2>Atividade</h2></div></div><div class="activity-card">
+        <div class="activity-row"><span class="activity-icon green">✓</span><div><strong>Bot One ficou online</strong><small>Agora mesmo</small></div></div>
+        <div class="activity-row"><span class="activity-icon purple">✦</span><div><strong>Bot Two executou um comando</strong><small>Há 12 minutos</small></div></div>
+        <div class="activity-row"><span class="activity-icon pink">☾</span><div><strong>Bot Three foi dormir</strong><small>Há 2 horas</small></div></div>
+      </div></section>
+      <footer>Feito com café demais &nbsp;•&nbsp; BotNest</footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
